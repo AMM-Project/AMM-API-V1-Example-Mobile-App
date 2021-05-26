@@ -1,0 +1,56 @@
+<resources>
+    <!-- change these config values-->
+    <string name="AMM_HOST_ADDRESS">Insert Target AMM Here</string>
+    <string name="client_id">Insert Client id Here</string>
+    <string name="redirect_uri">Insert Redirect uri here</string>
+    <string name="maps_api_key">Insert google maps api key (optional)</string>
+
+    <!-- other strings used in app -->
+    <string name="app_name">AMM API Demo App</string>
+    <string name="edit_message">Enter a message:</string>
+    <string name="button_send">Send</string>
+    <string name="button_login">login</string>
+    <string name="button_refreshToken">Refresh Token</string>
+    <string name="button_info">Information</string>
+    <string name="tab_gateways">Gateways</string>
+    <string name="tab_groups">Groups</string>
+    <string name="preference_file_key">preferences</string>
+    <string name="token_param">token</string>
+    <string name="client_id_param">clientID</string>
+    <string name="redirect_uri_param">redirect_uri</string>
+    <string name="AMM_HOST_ADDRESS_PARAM">target</string>
+    <string name="tab_latestStats">Latest Stats</string>
+    <string name="tab_historicalStats">Historical Stats</string>
+    <string name="but_refresh">Refresh</string>
+    <string name="but_search">Search</string>
+    <string name="spin_platform">Platform</string>
+    <string name="spin_heartbeat">Heartbeat</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_authenticate">AuthenticateActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="logout">Logout</string>
+    <string name="RefreshToken">Refresh Token</string>
+    <string-array name="platform_array">
+        <item>ALL</item>
+        <item>MP70</item>
+        <item>MG90</item>
+        <item>LX40</item>
+    </string-array>
+    <string-array name="heartbeat_array">
+        <item>ALL</item>
+        <item>10 min</item>
+        <item>2 hours</item>
+        <item>12 hours</item>
+        <item>3 days</item>
+        <item>1 month</item>
+        <item>6 month</item>
+    </string-array>
+
+</resources>
